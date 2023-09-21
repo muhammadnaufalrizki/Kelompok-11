@@ -1,0 +1,64 @@
+.customer{
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.box1 {
+    border-radius: 20px;
+    width: 13rem;
+    height: 10rem;
+    
+}
+
+.box1 img {
+    width: 12rem;
+    height: 9rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+ .texs {
+    text-align: center;
+    color:rgb(65, 63, 63);
+    font-weight: bold;
+    font-size: 12px;
+ }
+
+.box img {
+    margin-left: 70px;
+    margin-top: 40px;
+    width: 75rem;
+    height: 20rem;
+    border-radius: 20px;
+}
+
+.wrap{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.customer-container {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 2rem;
+    
+}
+.customer-container .box {
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.customer-container .box h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.5rem 0 0.5rem;
+    
+}
+
